@@ -1,0 +1,64 @@
+
+body {
+    background-color: #f9fffc;
+}
+
+.di_top_input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.househ_card {
+    height: 6rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem;
+}
+.househ_card.househ_card_value {
+    margin-right: 2.5rem;
+}
+.househ_card.househ_card_title {
+    margin-top: 1.5rem !important;
+}
+
+.metric_card {
+    height: 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.metric_card.bdr {
+    border-right: 1px solid #d6d6d6;
+}
+
+.table_irr_output {
+    min-height: 25rem;
+    max-height: 25rem;
+    overflow-y: auto;
+}
+
+.my_card {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border-radius: 3px;
+    row-gap: 3rem;
+    margin-top: 4rem;
+}
+
+.my_card .my_card_child {
+    display: flex;
+    flex-direction: column;
+}
+
+.my_card .my_card_child .my_card_child__row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
